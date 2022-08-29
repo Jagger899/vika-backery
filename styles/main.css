@@ -52,6 +52,14 @@ a {
     padding: 36px 32px 0;
   }
 }
+.header__logo {
+  width: 100px;
+  height: 100px;
+}
+.header__image {
+  width: 100px;
+  height: 100px;
+}
 .header__menu {
   display: none;
 }
@@ -162,6 +170,15 @@ a {
   position: absolute;
   left: -26px;
 }
+.menu__logo {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+}
+.menu__image {
+  width: 100px;
+  height: 100px;
+}
 
 .page {
   background-color: rgb(255, 238, 252);
@@ -259,7 +276,7 @@ a {
   }
 }
 .learn-more__title {
-  font-size: 64px;
+  font-size: 40px;
   line-height: 85%;
   text-align: center;
   font-weight: 400;
@@ -268,13 +285,13 @@ a {
 }
 @media (min-width: 640px) {
   .learn-more__title {
-    font-size: 80px;
+    font-size: 50px;
     margin-bottom: 300px;
   }
 }
 @media (min-width: 1024px) {
   .learn-more__title {
-    font-size: 110px;
+    font-size: 80px;
     text-align: center;
     line-height: 85%;
     margin-bottom: 130px;
@@ -900,7 +917,7 @@ a {
 }
 .contact-us__tel:hover {
   color: rgb(249, 81, 46);
-  transform: scale(1.2);
+  transform: perspective(400px) translateZ(40px) translateX(10px);
 }
 .contact-us__tel--last {
   margin-bottom: 40px;

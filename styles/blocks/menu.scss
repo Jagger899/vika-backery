@@ -72,4 +72,15 @@
       }
     }
   }
+
+  &__logo {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+  }
+
+  &__image {
+    width: 100px;
+    height: 100px;
+  }
 }
