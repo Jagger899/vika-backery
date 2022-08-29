@@ -1,10 +1,11 @@
 .menu {
   min-height: 100vh;
   z-index: 10;
-  background-color: $light-pink-color;
+  background-color: #fff;
 
   &__container {
     padding: 20px;
+    padding-bottom: 180px;
   }
 
   &__header {
