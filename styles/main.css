@@ -56,9 +56,21 @@ a {
   width: 100px;
   height: 100px;
 }
+@media (min-width: 1024px) {
+  .header__logo {
+    width: 160px;
+    height: 160px;
+  }
+}
 .header__image {
   width: 100px;
   height: 100px;
+}
+@media (min-width: 1024px) {
+  .header__image {
+    width: 160px;
+    height: 160px;
+  }
 }
 .header__menu {
   display: none;
@@ -996,6 +1008,9 @@ a {
   .contact-us__licen--unvis {
     display: block;
   }
+}
+.contact-us__adrdescr {
+  color: rgb(249, 81, 46);
 }
 
 .gallary__container {
