@@ -1,0 +1,137 @@
+.gallary{
+  // position: relative;
+  
+
+  &__container {
+   
+    
+    
+  }
+
+  &__slider {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+
+    @include onTablet {
+      width: 700px;
+      height: 500px;
+    }
+
+    @include onDesktop {
+      width: 1100px;
+      height: 800px;
+    }
+
+    // &--middle {
+    //   position: absolute;
+    //   top: 50%;
+    //   left: 50%;
+    // }
+  }
+
+  &__slides {
+    width: 1000%;
+    height: 100%;
+    display: flex;
+  }
+
+  &__slide {
+    width: 10%;
+    transition: all 300ms ease-in-out;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 85%;
+    text-align: center;
+    color: $accent-orange-color;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  
+    @include onTablet {
+      font-size: 56px;
+    }
+  
+    @include onDesktop {
+      font-size: 72px;
+    }
+  }
+
+  &__input {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  &__navigation {
+    
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    // background-color: red;
+    transform: translateX(-50%);
+    display: flex;
+    
+  }
+
+  &__bar {
+    height: 8px;
+    width: 30px;
+    margin: 6px;
+    margin-bottom: 5px;
+    // display: block;
+    // border: 1px solid #000;
+    background-color: #ddd;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
+  }
+
+  &__image {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  //   object-position: center;
+  }
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+#r2:checked~.s1 {
+  margin-left: -10%;
+}
+#r3:checked~.s1 {
+  margin-left: -20%;
+}
+#r4:checked~.s1 {
+  margin-left: -30%;
+}
+#r5:checked~.s1 {
+  margin-left: -40%;
+}
+#r6:checked~.s1 {
+  margin-left: -45%;
+}
+#r7:checked~.s1 {
+  margin-left: -50%;
+}
+#r8:checked~.s1 {
+  margin-left: -65%;
+}
+#r9:checked~.s1 {
+  margin-left: -75%;
+}
+#r10:checked~.s1 {
+  margin-left: -85%;
+}

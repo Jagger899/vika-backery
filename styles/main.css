@@ -222,6 +222,19 @@ a {
     margin-bottom: 186px;
   }
 }
+.page__gallary {
+  margin-bottom: 80px;
+}
+@media (min-width: 640px) {
+  .page__gallary {
+    margin-bottom: 160px;
+  }
+}
+@media (min-width: 1024px) {
+  .page__gallary {
+    margin-bottom: 186px;
+  }
+}
 
 .icon {
   width: 20px;
@@ -983,6 +996,126 @@ a {
   .contact-us__licen--unvis {
     display: block;
   }
+}
+
+.gallary__slider {
+  width: 400px;
+  height: 300px;
+  border: 1px solid #000;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media (min-width: 640px) {
+  .gallary__slider {
+    width: 700px;
+    height: 500px;
+  }
+}
+@media (min-width: 1024px) {
+  .gallary__slider {
+    width: 1100px;
+    height: 800px;
+  }
+}
+.gallary__slides {
+  width: 1000%;
+  height: 100%;
+  display: flex;
+}
+.gallary__slide {
+  width: 10%;
+  transition: all 300ms ease-in-out;
+}
+.gallary__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 85%;
+  text-align: center;
+  color: rgb(249, 81, 46);
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+@media (min-width: 640px) {
+  .gallary__title {
+    font-size: 56px;
+  }
+}
+@media (min-width: 1024px) {
+  .gallary__title {
+    font-size: 72px;
+  }
+}
+.gallary__input {
+  visibility: hidden;
+  position: absolute;
+}
+.gallary__navigation {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.gallary__bar {
+  height: 8px;
+  width: 30px;
+  margin: 6px;
+  margin-bottom: 5px;
+  background-color: #ddd;
+  cursor: pointer;
+  opacity: 0.5;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+}
+.gallary__bar:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+.gallary__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+  margin-left: -10%;
+}
+
+#r3:checked ~ .s1 {
+  margin-left: -20%;
+}
+
+#r4:checked ~ .s1 {
+  margin-left: -30%;
+}
+
+#r5:checked ~ .s1 {
+  margin-left: -40%;
+}
+
+#r6:checked ~ .s1 {
+  margin-left: -45%;
+}
+
+#r7:checked ~ .s1 {
+  margin-left: -50%;
+}
+
+#r8:checked ~ .s1 {
+  margin-left: -65%;
+}
+
+#r9:checked ~ .s1 {
+  margin-left: -75%;
+}
+
+#r10:checked ~ .s1 {
+  margin-left: -85%;
 }
 
 /*# sourceMappingURL=main.css.map */

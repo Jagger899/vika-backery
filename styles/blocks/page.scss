@@ -38,4 +38,19 @@
       margin-bottom: 186px;
     }
   }
+
+  &__gallary {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin-bottom: 80px;
+
+    @include onTablet {
+      margin-bottom: 160px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 186px;
+    }
+  }
 }
