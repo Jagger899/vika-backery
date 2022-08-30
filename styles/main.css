@@ -294,7 +294,7 @@ a {
   line-height: 85%;
   text-align: center;
   font-weight: 400;
-  color: rgb(249, 81, 46);
+  color: rgb(28, 26, 38);
   text-transform: uppercase;
 }
 @media (min-width: 640px) {
@@ -934,16 +934,16 @@ a {
   transform: perspective(400px) translateZ(40px) translateX(10px);
 }
 .contact-us__tel--last {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 @media (min-width: 640px) {
   .contact-us__tel--last {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 1024px) {
   .contact-us__tel--last {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
 }
 .contact-us__email {
