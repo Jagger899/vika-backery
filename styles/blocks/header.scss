@@ -1,5 +1,5 @@
 .header {
-  background-color: $light-pink-color;
+  background-color: #fff;
   
   &__container {
     padding: 20px;
@@ -14,6 +14,26 @@
 
     @include onDesktop {
       padding: 36px 32px 0;
+    }
+  }
+
+  &__logo {
+    width: 100px;
+    height: 100px;
+
+    @include onDesktop {
+      width: 160px;
+      height: 160px;
+    }
+  }
+
+  &__image {
+    width: 100px;
+    height: 100px;
+
+    @include onDesktop {
+      width: 160px;
+      height: 160px;
     }
   }
 

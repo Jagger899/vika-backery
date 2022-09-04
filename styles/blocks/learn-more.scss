@@ -35,15 +35,15 @@
   }
 
   &__title {
-    font-size: 64px;
+    font-size: 40px;
     line-height: 85%;
     text-align: center;
     font-weight: 400;
-    color: $accent-orange-color;
+    color: $black-color;
     text-transform: uppercase;
 
     @include onTablet {
-      font-size: 80px;
+      font-size: 50px;
       margin-bottom: 300px;
       // position: absolute;
       // bottom: 100px;
@@ -51,7 +51,7 @@
     }
     
     @include onDesktop {
-      font-size: 110px;
+      font-size: 80px;
       text-align: center;
       line-height: 85%;
       margin-bottom: 130px;
